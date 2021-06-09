@@ -16,15 +16,15 @@ select opt in add subtract multiply divide square quit; do
 
   case $opt in
     add)
-      cd Maths && bash math+.sh;;
+      bash math+.sh;;
     subtract)
-      cd Maths && bash math-.sh;;
+      bash math-.sh;;
     multiply)
-     cd Maths && bash math.sh;;
+     bash math.sh;;
     divide)
-    cd Maths && bash mathd.sh;;
+    bash mathd.sh;;
     square)
-     cd Maths && bash mathsq.sh;;
+     bash mathsq.sh;;
     quit)
       break;;
     *) 
